@@ -1,2 +1,2 @@
 # rockpaperscissors
-TOP practice 
+This project is a practice for javvascript 
