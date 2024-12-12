@@ -87,9 +87,13 @@
             
             //
             if(humanScore >= 5){
-                guiDisplay.textContent = "Human wins!";
+                alert("Human wins!");
+                humanScore = 0;
+                computerScore = 0;
             } else if(computerScore >= 5){
-                guiDisplay.textContent = "Computer wins!";
+                alert("Computer wins!");
+                humanScore = 0;
+                computerScore = 0;
             }
 
         }
