@@ -6,6 +6,7 @@
     <title>Rock Paper Scissors</title>
 </head>
 <body>
+    <p><b>Rock Paper Scissors</b></p>
     <div>
         <p id="display">First to 5 wins</p>
     </div>
@@ -87,11 +88,11 @@
             
             //
             if(humanScore >= 5){
-                alert("Human wins!");
+                guiDisplay.textContent = ("Human wins!");
                 humanScore = 0;
                 computerScore = 0;
             } else if(computerScore >= 5){
-                alert("Computer wins!");
+                guiDisplay.textContent = ("Computer wins!");
                 humanScore = 0;
                 computerScore = 0;
             }
